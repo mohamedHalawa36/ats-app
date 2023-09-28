@@ -9,19 +9,24 @@ import YesNoQ from "../Question Types/YesNoQ";
 
 export default function SelectQuestion() {
   return (
-    <QuestionsBox title="question">
-      <InputSection title="type">
-        <TypeSelect />
-      </InputSection>
-      <InputSection title="question">
+    <>
+      <QuestionsBox title="question">
+        <InputSection title="type">
+          <TypeSelect />
+        </InputSection>
+      </QuestionsBox>
+      <QuestionsBox title="paragraph question">
         <TextInput />
-      </InputSection>
-      <InputSection title="choice">
-        <ChoiceInput />
-      </InputSection>
-      <ParagraphQ />
-      <MultChoiceQ />
-      <YesNoQ />
-    </QuestionsBox>
+      </QuestionsBox>
+      <QuestionsBox title="multiple choice question">
+        <MultChoiceQ />
+      </QuestionsBox>
+      <QuestionsBox title="dropdown question">
+        <MultChoiceQ />
+      </QuestionsBox>
+      <QuestionsBox title="yes/no question">
+        <YesNoQ />
+      </QuestionsBox>
+    </>
   );
 }

@@ -1,7 +1,7 @@
 import CloseOutlined from "@ant-design/icons/CloseOutlined";
 type DeleteBtnProps = {
   text:string,
-  handleClick:()=>void
+  handleClick?:()=>void
 }
 export default function DeleteBtn({text,handleClick}:DeleteBtnProps) {
   return (
