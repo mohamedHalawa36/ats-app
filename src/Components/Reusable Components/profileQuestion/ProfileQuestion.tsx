@@ -2,7 +2,7 @@ import { Switch } from "antd";
 import Checkbox from "antd/es/checkbox/Checkbox";
 import "../personalQuestion/personalQuestion.css"
 import { useAppDispatch, useAppSelector } from "../../../Store/Store";
-import { setInternalUse, setMandatory, setShow } from "../../../Store/Slices/appFormSlice";
+import {  setMandatory, setShow } from "../../../Store/Slices/appFormSlice";
 type profileQuestionProps = {
   title: string;
   checkboxType: string;

@@ -1,9 +1,5 @@
 import { Select } from "antd";
 import "./typeSelect.css";
-import TextInput from "./TextInput";
-import MultChoiceQ from "../Question Types/MultChoiceQ";
-import YesNoQ from "../Question Types/YesNoQ";
-import QuestionsBox from "../questionsBox/QuestionsBox";
 
 export default function TypeSelect() {
   return (
