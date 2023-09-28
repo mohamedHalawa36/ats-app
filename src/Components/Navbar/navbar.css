@@ -1,0 +1,14 @@
+.nav-container {
+  box-shadow: 5px 0 7px var(--deviderColor);
+  display: flex;
+  position: relative;
+}
+.nav-container > .nav-element {
+  font-size: 20px;
+  padding: 53px 78px;
+  text-transform: capitalize;
+}
+.vertical-devider{
+    width: 1px;
+    background-color: var(--deviderColor);
+}

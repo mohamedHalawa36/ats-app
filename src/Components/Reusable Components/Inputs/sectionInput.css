@@ -1,0 +1,11 @@
+.inputSection-container {
+  margin-bottom: 30px;
+}
+
+.sectionInput-label {
+  margin-bottom: 15px;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 600;
+  display: inline-block;
+}

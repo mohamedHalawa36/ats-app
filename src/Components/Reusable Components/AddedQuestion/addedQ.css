@@ -1,0 +1,32 @@
+.addedQ-container{
+    padding:20px 0 40px 0 ;
+    border-bottom: 1px solid var(--deviderColor);
+}
+.addedQ-container>.addedQ-type{
+    font-size: 14px;
+    color: var(--placeholderColor);
+    margin-bottom: 10px;
+}
+.addedQ-text{
+    color: var(--mainTextColor);
+    font-size: 20px;
+    font-weight: 600;
+}
+.addedQ-content{
+    display: flex;
+    justify-content: space-between;
+}
+.addedQ-editIcon{
+    padding: 5px;
+    height: fit-content;
+    font-size: 20px;
+    margin-left: 100px;
+}
+.addedQ-editIcon:hover{
+    background-color: var(--toggleBtnColor);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}

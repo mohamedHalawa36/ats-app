@@ -1,0 +1,44 @@
+.personal-field {
+  padding: 25px 0;
+  border-bottom: 1px solid var(--deviderColor);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.field-title {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.checkbox-label {
+  font-size: 15px;
+  margin-left: 8px;
+}
+.checkbox-container {
+  display: flex;
+  align-items: center;
+}
+.hide-toggle-label {
+  margin-left: 16px;
+  font-size: 16px;
+}
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: var(--successBtnBg) !important ;
+}
+.personal-tips {
+  font-weight: normal;
+}
+.switch-container {
+  display: flex;
+  align-items: center;
+}
+.switch {
+  transform: rotateZ(180deg);
+  -webkit-transform: rotateZ(180deg);
+  -moz-transform: rotateZ(180deg);
+  -ms-transform: rotateZ(180deg);
+  -o-transform: rotateZ(180deg);
+}
+.ant-switch-checked {
+  background-color: var(--successBtnBg) !important ;
+}

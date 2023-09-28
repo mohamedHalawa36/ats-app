@@ -1,0 +1,28 @@
+.box-container {
+  margin: 60px 0;
+  padding-bottom: 52px;
+  width: 595px;
+  border-radius: 20px ;
+  box-shadow: 0 0 10px var(--deviderColor);
+  -webkit-border-radius: 20px ;
+  -moz-border-radius: 20px ;
+  -ms-border-radius: 20px ;
+  -o-border-radius: 20px ;
+}
+.box-header {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 114%;
+  color: var(--mainTextColor);
+  background-color: var(--boxHeaderBg);
+  padding: 29px;
+  text-transform: capitalize;
+  border-radius: 20px 20px 0px 0px;
+  -webkit-border-radius: 20px 20px 0px 0px;
+  -moz-border-radius: 20px 20px 0px 0px;
+  -ms-border-radius: 20px 20px 0px 0px;
+  -o-border-radius: 20px 20px 0px 0px;
+}
+.questions-container{
+  padding: 30px;
+}

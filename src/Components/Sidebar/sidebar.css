@@ -1,0 +1,13 @@
+.sidebar-container {
+  width: 118px;
+  box-shadow: 0 0 5px var(--deviderColor);
+}
+.sidebar-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sidebarIcon{
+    font-size: 36px;
+    margin: 46px 0;
+}
